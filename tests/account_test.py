@@ -1,11 +1,12 @@
 import unittest
+from decimal import Decimal
 
 from Account.Account import Account
 
 
 class MyTestCase(unittest.TestCase):
     def test_account_is_open_balance_zero(self):
-        myaccount = Account()
+        myaccount = Account("Beejay", Decimal(-1000.00))
         self.assertEqual(0, myaccount.get_balance())
 
     def test_user_can_deposit(self):

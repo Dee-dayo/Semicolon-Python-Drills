@@ -30,7 +30,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(5, drill_two.remove_item(set_of_numbers, 5))
         self.assertEqual(None, drill_two.remove_item(set_of_numbers, 6))
 
-    def test_function_returns_interset_between_two_sets(self):
+    def test_function_returns_intersect_between_two_sets(self):
         set_of_numbers = {1, 2, 3, 4, 5}
         set_of_numbers_two = {1, 6, 7, 8, 2, 4}
         self.assertEqual({1,2,4}, drill_two.find_intersection(set_of_numbers, set_of_numbers_two))

@@ -4,7 +4,7 @@ from decimal import Decimal
 class Account:
     def __init__(self, name, balance: Decimal):
         self.name = name
-        self.__balance = balance
+        self.balance = balance
 
     @property
     def balance(self):
@@ -18,7 +18,7 @@ class Account:
 
     # override to string method
     def __str__(self):
-        return f"Account Name: {self.name}, Balance: {self.__balance}"
+        return f"Account Name: {self.name}, Balance: {self.balance}"
 
 
 a1 = Account("John", Decimal(-10000.00))

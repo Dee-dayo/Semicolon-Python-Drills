@@ -1,7 +1,7 @@
 import unittest
 from decimal import Decimal
 
-from Account.Account import Account
+from bank_app.Account import Account
 
 
 class MyTestCase(unittest.TestCase):

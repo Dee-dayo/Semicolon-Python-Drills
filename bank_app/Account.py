@@ -4,10 +4,12 @@ from bank_app.invalid_pin_error import InvalidPinError
 
 
 class Account:
-    def __init__(self, name, pin):
+    def __init__(self, name: str, number: int, pin):
         self.name = name
         self.pin = pin
         self.balance = 0
+        self.number = number
+
 
     def deposit(self, amount: int):
         self.is_invalid_amount(amount)
@@ -34,4 +36,7 @@ class Account:
     def is_insufficient_fund(self, amount):
         if amount > self.balance:
             raise InsufficientFundsError("Insufficient fund")
+
+    def get_account_number(self):
+        return self.number
 

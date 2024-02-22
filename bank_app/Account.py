@@ -1,3 +1,6 @@
+from bank_app.invalid_amount_error import InvalidAmountError
+
+
 class Account:
     def __init__(self, name, pin):
         self.name = name
@@ -10,5 +13,7 @@ class Account:
         self.balance = self.balance + amount
 
     def check_balance(self, pin: str) -> int:
+        if pin.isIncorrect():
+            raise InvalidPinError("Pin is invalid")
         return self.balance
 

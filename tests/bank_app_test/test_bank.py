@@ -57,4 +57,31 @@ class MyTestCase(unittest.TestCase):
     def test_bank_can_withdraw(self):
         uba = Bank('UBA')
         uba.register_customer('Dayo', 'Akinyemi', '1234')
-        uba.withdraw(1002, 5_000, '1234')
+        uba.deposit(1002, 5_000)
+        uba.withdraw(1002, 3_000, '1234')
+        self.assertEqual(2_000, uba.check_balance(1002, '1234'))
+
+    def test_bank_cant_withdraw_with_incorrect_pin(self):
+        uba = Bank('UBA')
+        uba.register_customer('Dayo', 'Akinyemi', '1234')
+        uba.deposit(1002, 5_000)
+        with self.assertRaises(InvalidPinError):
+            uba.withdraw(1002, 3_000, '123234')
+
+    def test_bank_can_transfer_money(self):
+        uba = Bank('UBA')
+        uba.register_customer('Dayo', 'Akinyemi', '1234')
+        account2 = uba.register_customer('Moh', 'Baba', '2222')
+        uba.deposit(1002, 5_000)
+
+        uba.transfer(1002, 1003, 2_000, '1234')
+        self.assertEqual(3_000, uba.check_balance(1002, '1234'))
+        self.assertEqual(2_000, uba.check_balance(1003, '2222'))
+
+    def test_bank_can_remove_registered_account(self):
+        uba = Bank('UBA')
+        uba.register_customer('Dayo', 'Akinyemi', '1234')
+        self.assertEqual(1, uba.no_of_accounts())
+
+        uba.remove_account(1002, '1234')
+        self.assertEqual(0, uba.no_of_accounts())

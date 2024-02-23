@@ -36,7 +36,6 @@ class BankApp:
             case _:
                 self.display_menu()
 
-
     def check_balance(self):
         print("BALANCE CHECKER")
         account_number = int(input("Enter account number: "))
@@ -76,7 +75,6 @@ class BankApp:
         finally:
             self.display_menu()
 
-
     def deposit(self):
         print("DEPOSIT MONEY")
         acc_number = int(input("Enter Account Number: "))
@@ -89,8 +87,6 @@ class BankApp:
         finally:
             self.display_menu()
 
-
-
     def register_acc(self):
         print("REGISTER ACCOUNT")
         first_name = input("Enter your first name: ")
@@ -101,6 +97,7 @@ class BankApp:
         ***Account Registered Successfully***
         Your account details are: {account.get_account_number()}\n""")
         self.display_menu()
+
 
 bank = BankApp()
 bank.main_app()

@@ -44,6 +44,8 @@ class Diary:
         entry.title = entry_title
         entry.body = entry_body
 
+    def get_username(self) -> str:
+        return self.__username
 
 
 

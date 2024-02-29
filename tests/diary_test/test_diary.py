@@ -1,7 +1,7 @@
 import unittest
 
-from diary.diary import Diary
-from diary.invalid_id_no_error import InvalidIdNoError
+from diary_app.diary import Diary
+from diary_app.invalid_id_no_error import InvalidIdNoError
 
 
 class MyTestCase(unittest.TestCase):

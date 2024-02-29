@@ -1,5 +1,5 @@
-from diary.entry import Entry
-from diary.invalid_id_no_error import InvalidIdNoError
+from diary_app.entry import Entry
+from diary_app.invalid_id_no_error import InvalidIdNoError
 
 
 class Diary:

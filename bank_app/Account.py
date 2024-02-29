@@ -3,6 +3,11 @@ from bank_app.invalid_amount_error import InvalidAmountError
 from bank_app.invalid_pin_error import InvalidPinError
 
 
+def is_invalid_amount(amount):
+    if amount <= 0:
+        raise InvalidAmountError("Amount must be greater than zero")
+
+
 class Account:
     def __init__(self, name: str, number: int, pin):
         self.name = name
@@ -10,14 +15,9 @@ class Account:
         self.balance = 0
         self.number = number
 
-
     def deposit(self, amount: int):
-        self.is_invalid_amount(amount)
+        is_invalid_amount(amount)
         self.balance = self.balance + amount
-
-    def is_invalid_amount(self, amount):
-        if amount <= 0:
-            raise InvalidAmountError("Amount must be greater than zero")
 
     def check_balance(self, pin: str) -> int:
         self.is_correct_pin(pin)
@@ -29,7 +29,7 @@ class Account:
 
     def withdraw(self, amount: int, pin: str) -> None:
         self.is_insufficient_fund(amount)
-        self.is_invalid_amount(amount)
+        is_invalid_amount(amount)
         self.is_correct_pin(pin)
         self.balance = self.balance - amount
 

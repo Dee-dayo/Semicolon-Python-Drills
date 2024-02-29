@@ -1,4 +1,4 @@
-from diary.diary import Diary
+from diary_app.diary import Diary
 
 
 class Diaries:

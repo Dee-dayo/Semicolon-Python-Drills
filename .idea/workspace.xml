@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5bd9db9-9e16-4dfc-9a02-bd0773199b5f" name="Changes" comment="diary app">
-      <change afterPath="$PROJECT_DIR$/diary/diaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/diary_test/test_diaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diary_app/main_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drills/Drill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sevensegmentdisplay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/diary_test/drill_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/diary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_app/Account.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_app/Account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/diaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/invalid_id_no_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/invalid_id_no_error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/diary_test/test_diaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/diary_test/test_diaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/diary_test/test_diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/diary_test/test_diary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +66,9 @@
     "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_deposit_negative_amount.executor": "Run",
     "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_find_account_if_account_number_not_correct.executor": "Run",
     "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_withdraw_with_incorrect_pin.executor": "Run",
+    "Python tests.Python tests for diary_test.drill_test.MyTestCase.test_function_works.executor": "Run",
     "Python tests.Python tests for diary_test.test_diaries.MyTestCase.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password.executor": "Run",
     "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries.executor": "Run",
     "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username.executor": "Run",
     "Python tests.Python tests for diary_test.test_diary.MyTestCase.executor": "Run",
@@ -70,8 +81,12 @@
     "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_update_entry.executor": "Run",
     "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_cant_find_entry_with_incorrect_id.executor": "Run",
     "Python.Bank_App.executor": "Run",
+    "Python.Drill.executor": "Run",
     "Python.bank_app.executor": "Run",
     "Python.drill_three.executor": "Run",
+    "Python.main_app (1).executor": "Run",
+    "Python.main_app.executor": "Run",
+    "Python.sevensegmentdisplay.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -89,72 +104,100 @@
       <recent name="C:\Users\DELL\PycharmProjects\Semicolon\bank_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password">
-    <configuration name="Python tests for diary_test.test_diaries.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sevensegmentdisplay">
+    <configuration name="Bank_App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank_app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;diary_test.test_diaries.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank_app/Bank_App.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Drill" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drills" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drills/Drill.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="main_app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/diary_app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/diary_app/main_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="sevensegmentdisplay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sevensegmentdisplay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for diary_test.test_diary.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for diary_test.drill_test.MyTestCase.test_function_works" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,17 +209,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;diary_test.test_diary.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;diary_test.drill_test.MyTestCase.test_function_works&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password" />
-        <item itemvalue="Python tests.Python tests for diary_test.test_diaries.MyTestCase" />
-        <item itemvalue="Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username" />
-        <item itemvalue="Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries" />
-        <item itemvalue="Python tests.Python tests for diary_test.test_diary.MyTestCase" />
+        <item itemvalue="Python.sevensegmentdisplay" />
+        <item itemvalue="Python.Bank_App" />
+        <item itemvalue="Python.Drill" />
+        <item itemvalue="Python tests.Python tests for diary_test.drill_test.MyTestCase.test_function_works" />
+        <item itemvalue="Python.main_app (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +244,7 @@
       <workItem from="1708433399544" duration="234000" />
       <workItem from="1708504935701" duration="1293000" />
       <workItem from="1708625932860" duration="23665000" />
-      <workItem from="1708874040934" duration="7552000" />
+      <workItem from="1708874040934" duration="19345000" />
     </task>
     <task id="LOCAL-00001" summary="bank app">
       <option name="closed" value="true" />
@@ -267,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708932716185</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="diary app">
+      <option name="closed" value="true" />
+      <created>1708933851515</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708933851515</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,8 +330,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="diary app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Semicolon$Drill.coverage" NAME="Drill Coverage Results" MODIFIED="1709111978419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
+    <SUITE FILE_PATH="coverage/Semicolon$main_app.coverage" NAME="main_app Coverage Results" MODIFIED="1708940512211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary" />
+    <SUITE FILE_PATH="coverage/Semicolon$main_app__1_.coverage" NAME="main_app (1) Coverage Results" MODIFIED="1708940671342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$sevensegmentdisplay.coverage" NAME="sevensegmentdisplay Coverage Results" MODIFIED="1709195382896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Semicolon$drill_three.coverage" NAME="drill_three Coverage Results" MODIFIED="1708505516483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
     <SUITE FILE_PATH="coverage/Semicolon$bank_app.coverage" NAME="Bank_App Coverage Results" MODIFIED="1708673640348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
-    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1708933580421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Semicolon$Bank_App.coverage" NAME="Bank_App Coverage Results" MODIFIED="1709125509524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1709111851662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

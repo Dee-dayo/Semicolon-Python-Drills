@@ -1,6 +1,6 @@
 import unittest
 
-from diary.diaries import Diaries
+from diary_app.diaries import Diaries
 
 
 class MyTestCase(unittest.TestCase):

@@ -40,5 +40,5 @@ def display_screen(number):
                 print()
 
 
-num = input("Enter a number: ")
+num = input("Enter a binary number: ")
 display_screen(num)

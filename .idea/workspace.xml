@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5bd9db9-9e16-4dfc-9a02-bd0773199b5f" name="Changes" comment="diary app">
-      <change afterPath="$PROJECT_DIR$/diary_app/main_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drills/Drill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sevensegmentdisplay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/diary_test/drill_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drills/class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drills/drillfive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/methodoverloading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tictactoetest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tictactoetest/testtictactoe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoegame/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoegame/boardelements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoegame/invalidinputerror.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoegame/tictactoe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_app/Account.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_app/Account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/diaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/entry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/invalid_id_no_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/invalid_id_no_error.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/diary_test/test_diaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/diary_test/test_diaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/diary_test/test_diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/diary_test/test_diary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sevensegmentdisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/sevensegmentdisplay.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python312/Lib/dataclasses.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,89 +50,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_can_deposit.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_cant_deposit_negative_amount.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_deposit_account_can_withdraw_money.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_more_than_balance.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_invalid_pin.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_negative_amount.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_ban_can_register_two_customers.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_deposit_and_check_balance_of_account.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_find_account_by_account_number.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_remove_registered_account.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_transfer_money.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_withdraw.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_check_balance_with_incorrect_pin.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_deposit_negative_amount.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_find_account_if_account_number_not_correct.executor": "Run",
-    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_withdraw_with_incorrect_pin.executor": "Run",
-    "Python tests.Python tests for diary_test.drill_test.MyTestCase.test_function_works.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_can_create_entry.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_created_diary_is_locked.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_unlocked_can_be_locked.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_cant_create_if_diary_is_locked.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_delete_entry.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_find_entry_by_id_no.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_update_entry.executor": "Run",
-    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_cant_find_entry_with_incorrect_id.executor": "Run",
-    "Python.Bank_App.executor": "Run",
-    "Python.Drill.executor": "Run",
-    "Python.bank_app.executor": "Run",
-    "Python.drill_three.executor": "Run",
-    "Python.main_app (1).executor": "Run",
-    "Python.main_app.executor": "Run",
-    "Python.sevensegmentdisplay.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_can_deposit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_cant_deposit_negative_amount.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_deposit_account_can_withdraw_money.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_more_than_balance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_invalid_pin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_negative_amount.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_ban_can_register_two_customers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_deposit_and_check_balance_of_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_find_account_by_account_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_remove_registered_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_transfer_money.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_withdraw.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_check_balance_with_incorrect_pin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_deposit_negative_amount.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_find_account_if_account_number_not_correct.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_withdraw_with_incorrect_pin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.drill_test.MyTestCase.test_function_works.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_can_create_entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_created_diary_is_locked.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_unlocked_can_be_locked.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_cant_create_if_diary_is_locked.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_delete_entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_find_entry_by_id_no.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_update_entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_cant_find_entry_with_incorrect_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_has_3by3_board_filled_with_empty.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bank.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bank_App.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Drill.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bank_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.drill_three.executor&quot;: &quot;Run&quot;,
+    &quot;Python.drillfive.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_app (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.methodoverloading.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sevensegmentdisplay.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tictactoe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\PycharmProjects\Semicolon\bank_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sevensegmentdisplay">
-    <configuration name="Bank_App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Semicolon" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank_app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank_app/Bank_App.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Drill" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.drillfive">
+    <configuration name="drillfive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +134,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drills/Drill.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drills/drillfive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,53 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Semicolon" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/diary_app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/diary_app/main_app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sevensegmentdisplay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Semicolon" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sevensegmentdisplay.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for diary_test.drill_test.MyTestCase.test_function_works" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,17 +155,65 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;diary_test.drill_test.MyTestCase.test_function_works&quot;" />
+      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Semicolon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Semicolon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Semicolon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sevensegmentdisplay" />
-        <item itemvalue="Python.Bank_App" />
-        <item itemvalue="Python.Drill" />
-        <item itemvalue="Python tests.Python tests for diary_test.drill_test.MyTestCase.test_function_works" />
-        <item itemvalue="Python.main_app (1)" />
+        <item itemvalue="Python.drillfive" />
+        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied" />
+        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase" />
+        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game" />
+        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +238,11 @@
       <workItem from="1708433399544" duration="234000" />
       <workItem from="1708504935701" duration="1293000" />
       <workItem from="1708625932860" duration="23665000" />
-      <workItem from="1708874040934" duration="19345000" />
+      <workItem from="1708874040934" duration="19378000" />
+      <workItem from="1709202654894" duration="847000" />
+      <workItem from="1709282929000" duration="8015000" />
+      <workItem from="1709535159393" duration="12095000" />
+      <workItem from="1709549494226" duration="1122000" />
     </task>
     <task id="LOCAL-00001" summary="bank app">
       <option name="closed" value="true" />
@@ -318,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708933851515</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="diary app">
+      <option name="closed" value="true" />
+      <created>1709197592264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709197592264</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,13 +336,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="diary app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Semicolon$Drill.coverage" NAME="Drill Coverage Results" MODIFIED="1709111978419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
-    <SUITE FILE_PATH="coverage/Semicolon$main_app.coverage" NAME="main_app Coverage Results" MODIFIED="1708940512211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary" />
+    <SUITE FILE_PATH="coverage/Semicolon$diary.coverage" NAME="diary Coverage Results" MODIFIED="1709285472125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$main_app.coverage" NAME="main_app Coverage Results" MODIFIED="1709285507232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
     <SUITE FILE_PATH="coverage/Semicolon$main_app__1_.coverage" NAME="main_app (1) Coverage Results" MODIFIED="1708940671342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
-    <SUITE FILE_PATH="coverage/Semicolon$sevensegmentdisplay.coverage" NAME="sevensegmentdisplay Coverage Results" MODIFIED="1709195382896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Semicolon$sevensegmentdisplay.coverage" NAME="sevensegmentdisplay Coverage Results" MODIFIED="1709285335949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Semicolon$drill_three.coverage" NAME="drill_three Coverage Results" MODIFIED="1708505516483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
     <SUITE FILE_PATH="coverage/Semicolon$bank_app.coverage" NAME="Bank_App Coverage Results" MODIFIED="1708673640348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$drillfive.coverage" NAME="drillfive Coverage Results" MODIFIED="1709546063654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
+    <SUITE FILE_PATH="coverage/Semicolon$class.coverage" NAME="class Coverage Results" MODIFIED="1709293660193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
+    <SUITE FILE_PATH="coverage/Semicolon$tictactoe.coverage" NAME="tictactoe Coverage Results" MODIFIED="1709538357499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tictactoegame" />
+    <SUITE FILE_PATH="coverage/Semicolon$Drill.coverage" NAME="Drill Coverage Results" MODIFIED="1709111978419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
+    <SUITE FILE_PATH="coverage/Semicolon$methodoverloading.coverage" NAME="methodoverloading Coverage Results" MODIFIED="1709284873479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Semicolon$Bank_App.coverage" NAME="Bank_App Coverage Results" MODIFIED="1709125509524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
-    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1709111851662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Semicolon$Bank.coverage" NAME="Bank Coverage Results" MODIFIED="1709285432368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1709543719005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

@@ -2,7 +2,7 @@ from bank_app.Account import Account
 from bank_app.account_not_found_error import AccountNotFoundError
 
 
-class Bank(object):
+class Bank:
     def __init__(self, name: str):
         self.name = name
         self.__accounts = []
@@ -23,13 +23,14 @@ class Bank(object):
                 return account
         raise AccountNotFoundError("Account not found")
 
-    def deposit(self, accNo: int, amount: int) -> None:
-        account = self.find_account(accNo)
+    def deposit(self, acc_no: int, amount: int) -> None:
+        account = self.find_account(acc_no)
+
         account.is_invalid_amount(amount)
         account.deposit(amount)
 
-    def check_balance(self, accNo: int, pin: str) -> int:
-        account = self.find_account(accNo)
+    def check_balance(self, acc_no: int, pin: str) -> int:
+        account = self.find_account(acc_no)
         account.is_correct_pin(pin)
         return account.check_balance(pin)
 

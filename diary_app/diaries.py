@@ -1,4 +1,5 @@
 from diary_app.diary import Diary
+from diary_app.invalidusernameerror import InvalidUsernameError
 
 
 class Diaries:
@@ -16,6 +17,7 @@ class Diaries:
         for diary in self.diaries:
             if diary.get_username() == username:
                 return diary
+        raise InvalidUsernameError('Username not found')
 
     def delete(self, diary_username: str, diary_password: str) -> None:
         for diary in self.diaries:

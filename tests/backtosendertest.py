@@ -16,5 +16,6 @@ def test_function_can_calculate_riders_pay3():
 def test_function_can_calculate_riders_pay4():
     assert calculate_riders_payment(80) == 45_000
 
+ 
 def test_function_can_calculate_riders_pay5():
     assert calculate_riders_payment_take_two(25) == 9_000

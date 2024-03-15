@@ -1,3 +1,6 @@
+from sevensegment.sevensegmenterror import SevenSegmentError
+
+
 def display_screen(number):
     if len(number) == 8:
         num = list(number)
@@ -39,6 +42,19 @@ def display_screen(number):
             else:
                 print()
 
+        raise SevenSegmentError("The board is Off")
+    raise ValueError("The binary digit must be of length 8 only")
 
-num = input("Enter a binary number: ")
-display_screen(num)
+
+def main():
+    try:
+        user_input = input("Enter an 8-digit binary number: ")
+        display_screen(user_input)
+    except ValueError as e:
+        print(e)
+    except SevenSegmentError as e:
+        print(e)
+
+
+if __name__ == "__main__":
+    main()

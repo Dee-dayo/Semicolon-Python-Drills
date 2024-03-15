@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5bd9db9-9e16-4dfc-9a02-bd0773199b5f" name="Changes" comment="diary app">
-      <change afterPath="$PROJECT_DIR$/drills/class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drills/drillfive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/methodoverloading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tictactoetest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tictactoetest/testtictactoe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoegame/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoegame/boardelements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoegame/invalidinputerror.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoegame/tictactoe.py" afterDir="false" />
+    <list default="true" id="d5bd9db9-9e16-4dfc-9a02-bd0773199b5f" name="Changes" comment="added caculate riders payment function">
+      <change afterPath="$PROJECT_DIR$/diary_app/invalidusernameerror.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sevensegment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sevensegment/sevensegmenterror.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sevensegmentdisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/sevensegmentdisplay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_app/Bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_app/Bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_app/Bank_App.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_app/Bank_App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary_app/diaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary_app/diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary_app/invalid_id_no_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/invalid_id_no_error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary_app/main_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/main_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sevensegmentdisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/sevensegment/sevensegmentdisplay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/backtosendertest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/backtosendertest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tictactoetest/testtictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tictactoetest/testtictactoe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoegame/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoegame/tictactoe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for backtosendertest.test_function_can_calculate_riders_pay.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for backtosendertest.test_function_can_calculate_riders_pay5.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_can_deposit.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_cant_deposit_negative_amount.executor&quot;: &quot;Run&quot;,
@@ -85,13 +90,20 @@
     &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_update_entry.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_cant_find_entry_with_incorrect_id.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_can_check_if_its_draw.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_check_winner_when_game_ends.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_end_after_all_box_filled.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_ends_winner_2_wins_game.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_has_3by3_board_filled_with_empty.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in backtosendertest.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.Bank.executor&quot;: &quot;Run&quot;,
     &quot;Python.Bank_App.executor&quot;: &quot;Run&quot;,
     &quot;Python.Drill.executor&quot;: &quot;Run&quot;,
+    &quot;Python.backtosenderlogistics.executor&quot;: &quot;Run&quot;,
     &quot;Python.bank_app.executor&quot;: &quot;Run&quot;,
     &quot;Python.class.executor&quot;: &quot;Run&quot;,
     &quot;Python.diary.executor&quot;: &quot;Run&quot;,
@@ -105,6 +117,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Downloads/fullLine-233.14732/fullLine/lib/fullLine.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,11 +129,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\Semicolon\sevensegment" />
       <recent name="C:\Users\DELL\PycharmProjects\Semicolon\bank_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.drillfive">
-    <configuration name="drillfive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.tictactoe">
+    <configuration name="Bank_App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,12 +143,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drills" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank_app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drills/drillfive.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank_app/Bank_App.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sevensegmentdisplay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Semicolon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sevensegment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sevensegment/sevensegmentdisplay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Semicolon" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tictactoegame" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tictactoegame/tictactoe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +219,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,56 +231,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Semicolon" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Semicolon" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game&quot;" />
+      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.drillfive" />
-        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied" />
+        <item itemvalue="Python.tictactoe" />
+        <item itemvalue="Python.sevensegmentdisplay" />
+        <item itemvalue="Python.Bank_App" />
         <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase" />
-        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game" />
-        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column" />
+        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -242,7 +270,18 @@
       <workItem from="1709202654894" duration="847000" />
       <workItem from="1709282929000" duration="8015000" />
       <workItem from="1709535159393" duration="12095000" />
-      <workItem from="1709549494226" duration="1122000" />
+      <workItem from="1709549494226" duration="1180000" />
+      <workItem from="1709550867479" duration="648000" />
+      <workItem from="1709551556483" duration="5880000" />
+      <workItem from="1709698189701" duration="3977000" />
+      <workItem from="1709918123996" duration="8583000" />
+      <workItem from="1710188393303" duration="94000" />
+      <workItem from="1710188520655" duration="52000" />
+      <workItem from="1710188621911" duration="217000" />
+      <workItem from="1710188892081" duration="3980000" />
+      <workItem from="1710215601731" duration="8897000" />
+      <workItem from="1710361568772" duration="56000" />
+      <workItem from="1710361688060" duration="46288000" />
     </task>
     <task id="LOCAL-00001" summary="bank app">
       <option name="closed" value="true" />
@@ -324,7 +363,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709197592264</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="today's drill">
+      <option name="closed" value="true" />
+      <created>1709550680141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709550680141</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added caculate riders payment function">
+      <option name="closed" value="true" />
+      <created>1709786145321</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709786145321</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,22 +388,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bank app" />
     <MESSAGE value="diary app" />
-    <option name="LAST_COMMIT_MESSAGE" value="diary app" />
+    <MESSAGE value="today's drill" />
+    <MESSAGE value="added caculate riders payment function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added caculate riders payment function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Semicolon$diary.coverage" NAME="diary Coverage Results" MODIFIED="1709285472125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
-    <SUITE FILE_PATH="coverage/Semicolon$main_app.coverage" NAME="main_app Coverage Results" MODIFIED="1709285507232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$main_app.coverage" NAME="main_app Coverage Results" MODIFIED="1709977629382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
     <SUITE FILE_PATH="coverage/Semicolon$main_app__1_.coverage" NAME="main_app (1) Coverage Results" MODIFIED="1708940671342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
-    <SUITE FILE_PATH="coverage/Semicolon$sevensegmentdisplay.coverage" NAME="sevensegmentdisplay Coverage Results" MODIFIED="1709285335949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Semicolon$sevensegmentdisplay.coverage" NAME="sevensegmentdisplay Coverage Results" MODIFIED="1710216704767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sevensegment" />
     <SUITE FILE_PATH="coverage/Semicolon$drill_three.coverage" NAME="drill_three Coverage Results" MODIFIED="1708505516483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
     <SUITE FILE_PATH="coverage/Semicolon$bank_app.coverage" NAME="Bank_App Coverage Results" MODIFIED="1708673640348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$backtosenderlogistics.coverage" NAME="backtosenderlogistics Coverage Results" MODIFIED="1709785126266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
     <SUITE FILE_PATH="coverage/Semicolon$drillfive.coverage" NAME="drillfive Coverage Results" MODIFIED="1709546063654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
     <SUITE FILE_PATH="coverage/Semicolon$class.coverage" NAME="class Coverage Results" MODIFIED="1709293660193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
-    <SUITE FILE_PATH="coverage/Semicolon$tictactoe.coverage" NAME="tictactoe Coverage Results" MODIFIED="1709538357499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tictactoegame" />
+    <SUITE FILE_PATH="coverage/Semicolon$tictactoe.coverage" NAME="tictactoe Coverage Results" MODIFIED="1710218798906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tictactoegame" />
     <SUITE FILE_PATH="coverage/Semicolon$Drill.coverage" NAME="Drill Coverage Results" MODIFIED="1709111978419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
     <SUITE FILE_PATH="coverage/Semicolon$methodoverloading.coverage" NAME="methodoverloading Coverage Results" MODIFIED="1709284873479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Semicolon$Bank_App.coverage" NAME="Bank_App Coverage Results" MODIFIED="1709125509524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
+    <SUITE FILE_PATH="coverage/Semicolon$Bank_App.coverage" NAME="Bank_App Coverage Results" MODIFIED="1710216513428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
     <SUITE FILE_PATH="coverage/Semicolon$Bank.coverage" NAME="Bank Coverage Results" MODIFIED="1709285432368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
-    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1709543719005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1710194045774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

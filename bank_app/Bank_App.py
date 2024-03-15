@@ -1,4 +1,6 @@
-from bank_app.Account import Account
+from bank_app.account_not_found_error import AccountNotFoundError
+from bank_app.invalid_amount_error import InvalidAmountError
+from bank_app.invalid_pin_error import InvalidPinError
 from bank_app.Bank import Bank
 
 
@@ -18,20 +20,20 @@ class BankApp:
         5-> Check Balance
         6-> Exit App
         """)
-        user_input = int(input(""))
+        user_input = input("").strip()
 
         match user_input:
-            case 1:
+            case '1':
                 self.register_acc()
-            case 2:
+            case '2':
                 self.deposit()
-            case 3:
+            case '3':
                 self.withdraw()
-            case 4:
+            case '4':
                 self.transfer()
-            case 5:
+            case '5':
                 self.check_balance()
-            case 6:
+            case '6':
                 exit()
             case _:
                 self.display_menu()
@@ -43,7 +45,9 @@ class BankApp:
         try:
             self.bank.check_balance(account_number, pin)
             print(f"Your Balance is {self.bank.check_balance(account_number, pin)}")
-        except Exception as e:
+        except InvalidPinError as e:
+            print(e)
+        except AccountNotFoundError as e:
             print(e)
         finally:
             self.display_menu()
@@ -57,7 +61,11 @@ class BankApp:
         try:
             self.bank.transfer(sender_number, receiver_number, amount, pin)
             print("Amount transferred successfully***")
-        except Exception as e:
+        except InvalidAmountError as e:
+            print(e)
+        except InvalidPinError as e:
+            print(e)
+        except AccountNotFoundError as e:
             print(e)
         finally:
             self.display_menu()
@@ -70,7 +78,11 @@ class BankApp:
         try:
             self.bank.withdraw(acc_number, amount, pin)
             print("***Amount withdrawn Successfully***")
-        except Exception as e:
+        except InvalidAmountError as e:
+            print(e)
+        except InvalidPinError as e:
+            print(e)
+        except AccountNotFoundError as e:
             print(e)
         finally:
             self.display_menu()
@@ -82,7 +94,9 @@ class BankApp:
         try:
             self.bank.deposit(acc_number, amount)
             print("Amount deposited Successfully***")
-        except Exception as e:
+        except AccountNotFoundError as e:
+            print(e)
+        except InvalidAmountError as e:
             print(e)
         finally:
             self.display_menu()

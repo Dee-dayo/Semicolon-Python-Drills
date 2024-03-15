@@ -47,6 +47,9 @@ class Diary:
     def get_username(self) -> str:
         return self.__username
 
+    def get_entry_no(self) -> int:
+        return self.__entry_id
+
 
 
 

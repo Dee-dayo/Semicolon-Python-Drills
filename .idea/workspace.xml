@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5bd9db9-9e16-4dfc-9a02-bd0773199b5f" name="Changes" comment="added caculate riders payment function">
-      <change afterPath="$PROJECT_DIR$/diary_app/invalidusernameerror.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sevensegment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sevensegment/sevensegmenterror.py" afterDir="false" />
+    <list default="true" id="d5bd9db9-9e16-4dfc-9a02-bd0773199b5f" name="Changes" comment="more projects">
+      <change afterPath="$PROJECT_DIR$/drills/javascript_drill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/javascript_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_app/Bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_app/Bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_app/Bank_App.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank_app/Bank_App.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary_app/diaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary_app/diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/diary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary_app/invalid_id_no_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/invalid_id_no_error.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary_app/main_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary_app/main_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sevensegmentdisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/sevensegment/sevensegmentdisplay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/backtosendertest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/backtosendertest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tictactoetest/testtictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tictactoetest/testtictactoe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoegame/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/tictactoegame/tictactoe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -53,88 +42,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for backtosendertest.test_function_can_calculate_riders_pay.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for backtosendertest.test_function_can_calculate_riders_pay5.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_can_deposit.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_cant_deposit_negative_amount.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_deposit_account_can_withdraw_money.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_more_than_balance.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_invalid_pin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_negative_amount.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_ban_can_register_two_customers.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_deposit_and_check_balance_of_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_find_account_by_account_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_remove_registered_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_transfer_money.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_withdraw.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_check_balance_with_incorrect_pin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_deposit_negative_amount.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_find_account_if_account_number_not_correct.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_withdraw_with_incorrect_pin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.drill_test.MyTestCase.test_function_works.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_can_create_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_created_diary_is_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_unlocked_can_be_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_cant_create_if_diary_is_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_delete_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_find_entry_by_id_no.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_update_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_cant_find_entry_with_incorrect_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_can_check_if_its_draw.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_check_winner_when_game_ends.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_end_after_all_box_filled.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_ends_winner_2_wins_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_has_3by3_board_filled_with_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in backtosendertest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bank.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bank_App.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Drill.executor&quot;: &quot;Run&quot;,
-    &quot;Python.backtosenderlogistics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bank_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class.executor&quot;: &quot;Run&quot;,
-    &quot;Python.diary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.drill_three.executor&quot;: &quot;Run&quot;,
-    &quot;Python.drillfive.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_app (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.methodoverloading.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sevensegmentdisplay.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tictactoe.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Downloads/fullLine-233.14732/fullLine/lib/fullLine.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for backtosendertest.test_function_can_calculate_riders_pay.executor": "Run",
+    "Python tests.Python tests for backtosendertest.test_function_can_calculate_riders_pay5.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_can_deposit.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_cant_deposit_negative_amount.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_deposit_account_can_withdraw_money.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_more_than_balance.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_invalid_pin.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_account.MyTestCase.test_account_depost_account_cant_withdraw_with_negative_amount.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_ban_can_register_two_customers.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_deposit_and_check_balance_of_account.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_find_account_by_account_number.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_remove_registered_account.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_transfer_money.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_can_withdraw.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_check_balance_with_incorrect_pin.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_deposit_negative_amount.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_find_account_if_account_number_not_correct.executor": "Run",
+    "Python tests.Python tests for bank_app_test.test_bank.MyTestCase.test_bank_cant_withdraw_with_incorrect_pin.executor": "Run",
+    "Python tests.Python tests for diary_test.drill_test.MyTestCase.test_function_works.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diaries_can_delete_diary_by_username_password.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_added_to_diaries.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diaries.MyTestCase.test_diary_can_be_find_by_username.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_can_create_entry.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_created_diary_is_locked.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_diary_is_unlocked_can_be_locked.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_cant_create_if_diary_is_locked.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_delete_entry.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_find_entry_by_id_no.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_can_update_entry.executor": "Run",
+    "Python tests.Python tests for diary_test.test_diary.MyTestCase.test_entry_is_created_cant_find_entry_with_incorrect_id.executor": "Run",
+    "Python tests.Python tests for javascript_test.MyTestCase.executor": "Run",
+    "Python tests.Python tests for javascript_test.MyTestCase.test_function_works.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_can_check_if_its_draw.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_check_winner_when_game_ends.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_end_after_all_box_filled.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_ends_winner_2_wins_game.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_has_3by3_board_filled_with_empty.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_game_raise_error_if_position_already_occupied.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_player_cant_play_invalid_row_or_column.executor": "Run",
+    "Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_second_player_can_play_game.executor": "Run",
+    "Python tests.Python tests in backtosendertest.py.executor": "Run",
+    "Python.Bank.executor": "Run",
+    "Python.Bank_App.executor": "Run",
+    "Python.Drill.executor": "Run",
+    "Python.backtosenderlogistics.executor": "Run",
+    "Python.bank_app.executor": "Run",
+    "Python.class.executor": "Run",
+    "Python.diary.executor": "Run",
+    "Python.drill_three.executor": "Run",
+    "Python.drillfive.executor": "Run",
+    "Python.javascript_drill.executor": "Run",
+    "Python.main_app (1).executor": "Run",
+    "Python.main_app.executor": "Run",
+    "Python.methodoverloading.executor": "Run",
+    "Python.sevensegmentdisplay.executor": "Run",
+    "Python.tictactoe.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/DELL/Downloads/fullLine-233.14732/fullLine/lib/fullLine.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\PycharmProjects\Semicolon\sevensegment" />
       <recent name="C:\Users\DELL\PycharmProjects\Semicolon\bank_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tictactoe">
-    <configuration name="Bank_App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.javascript_drill">
+    <configuration name="javascript_drill" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,12 +135,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank_app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drills" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bank_app/Bank_App.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drills/javascript_drill.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for javascript_test.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,11 +207,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;javascript_test.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for javascript_test.MyTestCase.test_function_works" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Semicolon" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,17 +223,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten&quot;" />
+      <option name="_new_target" value="&quot;javascript_test.MyTestCase.test_function_works&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.javascript_drill" />
+        <item itemvalue="Python tests.Python tests for javascript_test.MyTestCase.test_function_works" />
+        <item itemvalue="Python tests.Python tests for javascript_test.MyTestCase" />
         <item itemvalue="Python.tictactoe" />
         <item itemvalue="Python.sevensegmentdisplay" />
-        <item itemvalue="Python.Bank_App" />
-        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase" />
-        <item itemvalue="Python tests.Python tests for tictactoetest.testtictactoe.MyTestCase.test_ends_when_a_winner_is_already_gotten" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +273,8 @@
       <workItem from="1710188892081" duration="3980000" />
       <workItem from="1710215601731" duration="8897000" />
       <workItem from="1710361568772" duration="56000" />
-      <workItem from="1710361688060" duration="46288000" />
+      <workItem from="1710361688060" duration="47095000" />
+      <workItem from="1710922689469" duration="5579000" />
     </task>
     <task id="LOCAL-00001" summary="bank app">
       <option name="closed" value="true" />
@@ -379,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709786145321</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="more projects">
+      <option name="closed" value="true" />
+      <created>1710504107109</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710504107109</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +391,8 @@
     <MESSAGE value="diary app" />
     <MESSAGE value="today's drill" />
     <MESSAGE value="added caculate riders payment function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added caculate riders payment function" />
+    <MESSAGE value="more projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="more projects" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Semicolon$diary.coverage" NAME="diary Coverage Results" MODIFIED="1709285472125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diary_app" />
@@ -407,6 +409,7 @@
     <SUITE FILE_PATH="coverage/Semicolon$methodoverloading.coverage" NAME="methodoverloading Coverage Results" MODIFIED="1709284873479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Semicolon$Bank_App.coverage" NAME="Bank_App Coverage Results" MODIFIED="1710216513428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
     <SUITE FILE_PATH="coverage/Semicolon$Bank.coverage" NAME="Bank Coverage Results" MODIFIED="1709285432368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bank_app" />
-    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1710194045774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Semicolon$.coverage" NAME=" Coverage Results" MODIFIED="1710925262486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Semicolon$javascript_drill.coverage" NAME="javascript_drill Coverage Results" MODIFIED="1710928142216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drills" />
   </component>
 </project>
